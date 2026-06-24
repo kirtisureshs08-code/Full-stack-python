@@ -1,0 +1,5 @@
+t=(1,2,4,5)
+l1=list(t)
+print(l1)
+l1.append(7)
+print(l1)

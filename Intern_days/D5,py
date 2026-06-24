@@ -1,0 +1,80 @@
+'''name=" python tutorial "
+print("name is",name)
+
+#string are immutable
+#string indexing:-
+#+ve indexing
+print(name[2])
+#-ve indexing
+print(name[-3])
+
+text=""" hello my self kirtika.
+My internship located at sumago infotech Pvt.Ltd """
+print(text)
+
+#slicing
+print(name[0:5])
+print(name[3:])
+print(name[:5])
+print(name[::2])
+
+#string reverse
+print(name[::-1])
+
+#methods
+print(len(name))
+print(name.upper())
+print(name.lower())
+#first character is capital
+print(name.title())
+print(name.capitalize())
+print(name.count('p'))
+print(name.index('y'))
+#it removes the white spaces
+print(name.strip())
+#remove space from right
+print(name.rstrip())
+#remove space from left
+print(name.lstrip())
+
+s=name.replace('python','java')
+print(s)
+
+#the methods start with is.it return boolean value 
+print(name.istitle())
+print(name.isalpha())
+
+print(name.startswith('p'))
+print(name.endswith(" "))
+
+#list:-ordered collection of datatype & mutable
+#features:-multiple datatype,index access,mutable,dynamic size
+car=["oddi","Thar","BMW","Dezire","toyoto"]
+print(car,type(car))
+print(car[1:4])
+
+#muitidimentional list
+l1=[["python","java"],["django","spring"]]
+print(l1[0][1])
+
+#list methods
+data=input("Enter elements: ")
+list2=data.split()
+print(list2)
+#or
+name,address=input("enter values:").split()
+print("name is",name)
+print("address is ",address)   '''
+
+#list methods
+l1=['a','b']
+l1.append('alto')
+print(l1)
+
+print(l1.pop())
+
+l1.insert(2,'kirti')
+print(l1)
+
+l1.remove('kirti')
+print(l1)
